@@ -759,7 +759,7 @@
       {
         "name": "TVLive",
         "type": 0,
-        "url": "./zb",
+        "url": "./live.txt",
         "playerType": 1,
         "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
         "logo": "https://epg.iill.top/logo/{name}.png"
