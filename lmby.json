@@ -4,14 +4,14 @@
     //"spider":"https://git.acwing.com/line/tv/-/raw/main/lm250109.php"
     "sites": [
       {
-        "key": "豆瓣",
-        "name": "🚩IPV6极速生活「备用」",
-        "type": 3,
-        "api": "csp_Douban",
-        "searchable": 0,
-        "quickSearch": 0,
-        "filterable": 0
-      },
+		"key": "豆瓣",
+		"name": "🚩IPV6极速生活「备用」",
+		"type": 3,
+		"api": "./lib/drpy2.min.js",
+		"searchable": 0,
+		"changeable": 1,
+		"ext": "./lib/douban.js"
+	  },
       {
         "key":"天天",
         "name":"💡天天┃影视",
@@ -759,7 +759,7 @@
       {
         "name": "TVLive",
         "type": 0,
-        "url": "https://git.acwing.com/line/live/-/raw/main/zb.txt",
+        "url": "./zb",
         "playerType": 1,
         "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
         "logo": "https://epg.iill.top/logo/{name}.png"
